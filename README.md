@@ -3,44 +3,41 @@ FreshTrackAI is an intelligent food management system that helps users reduce fo
 
 # Features
 ## Smart Input
-### Manual Entry: Easily add food items and their expiry dates manually.
-### Image Recognition: Upload an image of your food item or receipt—Google Vision AI extracts details like product name, category, and expiry date.
-Expiry Alert System
+### Manual Entry: 
+Easily add food items and their expiry dates manually.
+### Image Recognition: 
+Upload an image of your food item or receipt—Google Vision AI extracts details like product name, category, and expiry date.
+### Expiry Alert System
 Get reminders before your items expire, so you never waste food again.
-View a dashboard of items sorted by expiry urgency.
-Chef AI (Hugging Face API)
+### Chef AI (Hugging Face API)
 Recommend creative and healthy recipes using items that are about to expire.
 Explore meal ideas for any food you have in your kitchen.
-Ensures optimal use of groceries with personalized suggestions.
-Tech Stack
-Frontend: HTML5 / CSS3
-Backend: Nodejs
-Database: MongoDB / PostgreSQL
-AI Services:
-Google Vision AI (for image-based food data extraction)
-Hugging Face Inference API (for recipe generation)
-Notifications: Email / Push Notifications (via Firebase or Twilio)
-Example Workflow
-Add food items manually or upload a photo of your grocery/label.
-Google Vision AI detects product and expiry details.
-System stores and tracks the expiry timeline.
-Get a reminder before an item goes bad.
-Chef AI suggests recipes to use the item in a delicious dish!
-Installation & Setup
-# Clone the repo
+## Tech Stack
+### Frontend: 
+HTML5 / CSS3
+### Backend: 
+Nodejs
+### Database: 
+MongoDB / PostgreSQL
+# AI Services:
+- Google Vision AI (for image-based food data extraction)
+- Hugging Face Inference API (for recipe generation)
+- Notifications: Email / Push Notifications (via Firebase or Twilio)
+# Installation & Setup
+## Clone the repo
 git clone https://github.com/yourusername/FreshTrackAI.git
 cd FreshTrackAI
 
-# (Optional) Set up a virtual environment
+## (Optional) Set up a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Set up environment variables for API keys
+## Set up environment variables for API keys
 cp .env.example .env
-# Add your Google Vision and Hugging Face API keys to .env
+## Add your Google Vision and Hugging Face API keys to .env
 
-# Run the backend
+## Run the backend
 uvicorn app.main:app --reload
