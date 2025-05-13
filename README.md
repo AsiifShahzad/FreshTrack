@@ -1,10 +1,10 @@
 # FreshTrackAI
 FreshTrackAI is an intelligent food management system that helps users reduce food waste and make the most of their groceries. It tracks product details—such as expiry dates and categories—via manual input or automated image analysis using Google Vision AI. The system then sends timely alerts before expiration and even recommends delicious recipes through a Chef AI powered by the Hugging Face API.
 
-#Features
-Smart Input
-Manual Entry: Easily add food items and their expiry dates manually.
-Image Recognition: Upload an image of your food item or receipt—Google Vision AI extracts details like product name, category, and expiry date.
+# Features
+## Smart Input
+### Manual Entry: Easily add food items and their expiry dates manually.
+### Image Recognition: Upload an image of your food item or receipt—Google Vision AI extracts details like product name, category, and expiry date.
 Expiry Alert System
 Get reminders before your items expire, so you never waste food again.
 View a dashboard of items sorted by expiry urgency.
