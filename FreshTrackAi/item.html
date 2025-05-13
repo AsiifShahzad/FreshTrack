@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshTrack</title>
+  <link rel="stylesheet" href="item.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>FreshTrack</h1>
+      <p>AI‑Powered Expiry Date Detection & Tracking</p>
+    </header>
+    <!-- 2) Manual Entry Module -->
+    <section class="upload-section" id="entrySection">
+      <h2>Enter Item Details Manually</h2>
+      <label for="manualItemNameInput">Item Name:</label>
+      <input type="text" id="manualItemNameInput" placeholder="e.g. Tomato Sauce" />
+
+      <label for="manualExpiryDateInput">Expiry Date:</label>
+      <input type="date" id="manualExpiryDateInput" />
+
+      <label for="manualStatusSelect">Status:</label>
+      <select id="manualStatusSelect">
+        <option value="fresh">Fresh</option>
+        <option value="expired">Expired</option>
+      </select>
+
+      <button id="manualSubmitBtn">Submit</button>
+    </section>
+    <section class="result-section hidden" id="manualResultSection">
+      <h2>Entered Information</h2>
+      <div class="details">
+        <p><strong>Item:</strong> <span id="manualItemName">—</span></p>
+        <p><strong>Expiry Date:</strong> <span id="manualExpiryDate">—</span></p>
+        <p><strong>Status:</strong> <span id="manualStatus">—</span></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 FreshTrack – Keeping your food fresh with AI</p>
+    </footer>
+  </div>
+
+  <script src="item.js"></script>
+</body>
+</html>

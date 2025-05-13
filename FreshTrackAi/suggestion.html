@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshTrack – Recipe Suggestions</title>
+  <link rel="stylesheet" href="suggestion.css" />
+</head>
+<body>
+  <div class="container">
+    <section class="card" id="recipeSection">
+      <h2>Recipe Suggestions</h2>
+      <p>What ingredients do you have (expired or not)?</p>
+      <div class="recipe-controls">
+        <textarea id="recipeInput"
+                  placeholder="e.g. expired milk, wilted spinach…"
+                  rows="3"></textarea>
+        <button id="sendRecipeBtn">Ask Chef AI</button>
+      </div>
+      <div id="chatWindow" class="chat-window hidden"></div>
+    </section>
+  </div>
+
+  <script src="suggestion.js"></script>
+</body>
+</html>

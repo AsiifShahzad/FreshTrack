@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshTrack</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <header class="blur-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Fresh<span>Track</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    
+                    <li><a href="item.html">Add Item</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="cta-buttons">
+                <button class="btn secondary-btn" onclick="location.href='login.html'">Login</button>
+                <button class="btn secondary-btn" onclick="location.href='Signup.html'">Signup</button>
+
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-text">Never Waste Food Again</h1>
+                <p class="animate-text-delay">AI-powered food management that tracks expiry dates, suggests recipes, and helps you save money while reducing waste.</p>
+                <div class="hero-buttons">
+                    <button class="btn secondary-btn" onclick="location.href='login.html'">Get Started</button>
+                  
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>30%</h3>
+                        <p>Less Food Waste</p>
+                    </div>
+                    <div class="stat">
+                        <h3>$720</h3>
+                        <p>Avg. Annual Savings</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10K+</h3>
+                        <p>Active Users</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Smart Features for Your Kitchen</h2>
+                <p>Our AI-powered platform makes food management effortless</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>AI-Powered Expiry Detection</h3>
+                    <p>Scan barcodes or upload images of food items. Our AI detects expiration dates from packaging and tracks them automatically.</p>
+                    <div class="feature-hover">
+                       
+                    </div>
+                </div>
+                <div class="feature-card">
+                   
+                    <h3>Smart Food Inventory</h3>
+                    <p>Real-time tracking of quantity, expiry status, and freshness with automatic categorization of all your food items.</p>
+           
+                </div>
+                <div class="feature-card">
+                  
+                    <h3>Expiry Alerts & Notifications</h3>
+                    <p>Receive timely alerts via push notifications, emails, or SMS when your food is about to expire.</p>
+             
+                </div>
+                <div class="feature-card">
+                   
+                    <h3>AI Recipe Suggestions</h3>
+                    <p>Get personalized recipe recommendations based on the ingredients you already have to reduce waste and try new dishes.</p>
+                   
+                </div>
+                <div class="feature-card">
+                  
+                    <h3>Smart Grocery List</h3>
+                    <p>Auto-generated shopping lists based on items running low with direct integration to online grocery stores.</p>
+                   
+                </div>
+                <div class="feature-card">
+                   
+                    <h3>Real-Time Dashboard</h3>
+                    <p>Visual graphs and charts showing food consumption trends to help track waste reduction and savings.</p>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How FreshTrack Works</h2>
+                <p>Three simple steps to revolutionize your kitchen management</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-content">
+                        <h3>Scan & Track</h3>
+                        <p>Scan barcodes or take photos of your food items. Our AI automatically detects and logs expiry dates.</p>
+                    </div>
+                
+                </div>
+                <div class="step reverse">
+                    <div class="step-content">
+                        <h3>Get Smart Alerts</h3>
+                        <p>Receive timely notifications before your food expires. Never throw away forgotten items again.</p>
+                    </div>
+                 
+                </div>
+                <div class="step">
+               
+                    <div class="step-content">
+                        <h3>Cook & Save</h3>
+                        <p>Get AI-powered recipe suggestions based on what you have and what's about to expire. Reduce waste and save money.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="app-preview" class="app-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>See FreshTrack in Action</h2>
+                <p>Explore the intuitive interface that makes food management effortless</p>
+            </div>
+            <div class="preview-container">
+                <div class="preview-tabs">
+                    <button class="tab-btn active" data-tab="inventory">Inventory</button>
+                    <button class="tab-btn" data-tab="recipes">Recipes</button>
+                    <button class="tab-btn" data-tab="alerts">Alerts</button>
+                    <button class="tab-btn" data-tab="dashboard">Dashboard</button>
+                </div>
+                <div class="preview-content">
+                    <div class="tab-content active" id="inventory">
+                        
+                        <div class="feature-highlight">
+                            <h3>Smart Inventory Management</h3>
+                            <p>Categorized view of all your food items with expiry status, quantity, and freshness indicators.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="recipes">
+                       
+                        <div class="feature-highlight">
+                            <h3>AI-Powered Recipe Suggestions</h3>
+                            <p>Get personalized recipes based on what's in your kitchen and what needs to be used soon.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="alerts">
+                      
+                        <div class="feature-highlight">
+                            <h3>Smart Notification System</h3>
+                            <p>Customizable alerts for soon-to-expire items with urgency levels and action suggestions.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="dashboard">
+                      
+                        <div class="feature-highlight">
+                            <h3>Insightful Analytics Dashboard</h3>
+                            <p>Track your food waste reduction, savings, and consumption patterns over time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Reduce Food Waste?</h2>
+                <p>Join thousands of users who are saving money and helping the environment</p>
+                <button class="btn secondary-btn" onclick="location.href='login.html'">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Fresh<span>Track</span></h2>
+                    <p>AI-powered food management to reduce waste and save money.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Product</h3>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">GDPR</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FreshTrack AI. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js">
+          const API = 'http://localhost:5000/api';
+
+  async function login(email, pass) {
+    const res = await fetch(`${API}/auth/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password: pass })
+    });
+    const data = await res.json();
+    if (res.ok) {
+      localStorage.setItem('token', data.token);
+      alert('Logged in!');
+    } else {
+      alert(data.message);
+    }
+  }
+
+  async function fetchProducts() {
+    const token = localStorage.getItem('token');
+    const res = await fetch(`${API}/products`, {
+      headers: { 'Authorization': `Bearer ${token}` }
+    });
+    const products = await res.json();
+    console.log(products);
+  }
+
+    </script>
+</body>
+</html>
